@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+  
+ 
+  background:transparent;
+  background-image: linear-gradient(rgba(144, 148, 144, 0.4) .1em, transparent .1em), linear-gradient(90deg, rgba(144, 148, 144, 0.4) .1em, transparent .0.4em);
+  background-size: 5em 5em;
+}
